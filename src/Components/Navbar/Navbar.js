@@ -42,7 +42,7 @@ class Navbar extends Component {
                                 }
                         activeStyle={{color: 'white', textDecoration: 'underline white'}}
                     >
-                        Hamster
+                        Blog
                     </NavLink>
 
                     <NavLink
@@ -76,7 +76,7 @@ class Navbar extends Component {
                         className={[this.props.classes.navLinkStyle, this.props.classes.signupAndSignin].join(' ')}
                         activeStyle={styles.activeLinks}
                         to='/sign-up'>
-                            Sign up
+                            Register
                     </NavLink>
 
                     <NavLink 
